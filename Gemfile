@@ -14,6 +14,10 @@ gem "tzinfo-data", platforms: %i[ windows jruby ]
 gem "bootsnap", require: false
 gem "omniauth-google-oauth2"
 gem "omniauth-rails_csrf_protection"
+gem "devise", "~> 4.9"
+gem "bootstrap", "~> 5.3"
+gem "sassc-rails"
+
 
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ]
@@ -28,5 +32,3 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
-
-gem "devise", "~> 4.9"
